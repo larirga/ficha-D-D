@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(93, 96, 99);
+    background-color: #f8efbe;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+    color:#9d5732;
+}
+
+.style-header {
+    text-align: center;
+    background-color: #ff9a36;
+    border: 1px solid rgb(214, 217, 220);
+    border-radius: 10px;
+    width: 90%;
+    height: 130px;
+    margin: 30px auto;
+    padding: 40px;
+    color: #b70040;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.style-header h1 {
+    font-family: 'MedievalSharp', cursive;
+    color: #b70040;
+}
+
+.style-header img {
+    width: 200px;
+}
+
+main {
+    
+}
+
+.form-row {
+    border: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 15px;
+    background-color: #f1d07a;
+
+}
+
+.line-content {
+    border: 2px;
+    
+
+}
+
+.form-row2 {
+    border: 2px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    padding: 15px
+}
+
+.line-skills {
+    
+}
+
+.line-magic {
+    /* border: red solid 30px; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #eae7af;
+}
+
+.legacy-form-skills {
+    border: #ffb107 solid 2px;
+    border-radius: 6px;
+    padding: 10px;
+    width:120px;
+    background-color: #f1d07a;;
+}
+
+.legacy-form-skills input {
+    display: block;
+    line-height: 2;
+    
+}
+
+.skills-section {
+    /* border: black solid 2px; */
+    /* height: 200px; */
+    line-height: 25px;
+    /* display: flex; */
+
+}
+
+.features-talents {
+    /* border: green solid 2px; */
+    /* height: 200px; */
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+    background-color: #fcf9c1;
+    border: #920a08 solid 1px;
+    border-radius: 3px
+}
+
+option {
+    background-color:  #920a08 solid 1px;
+    border-radius: 1px;
+}
+
+input {
+    background-color: #fcf9c1;
+    border: #920a08 solid 1px;
+    border-radius: 3px;
+}
+
+.spell-attacks input {
+    /* line-height: 20px; */
+    height: 40px;
+    width: 60px;
+    display: flex;
+}
+/* .basic-form {
+    border-radius: 3px;
+    width: 80%;
+    padding: 100px;
+    margin: 0 auto 40px auto;
+}
+
+.form-row {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 40px auto;
+}
+
+.line-content {
+    margin: 20px;
+    border: 0 none;
+}
+
+.form-row2 {
+    padding: 20px;
+    margin: 20px 150px;
+} */

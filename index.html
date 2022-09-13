@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário-Ficha</title>
+</head>
+<body>
+    <header class="style-header">
+        <div>
+            <img src="https://i.pinimg.com/originals/c3/c8/65/c3c8650eb410c311d3d29ea938b31324.png" alt="Imagem de um dragão alaranjado feito com pixel art">
+        </div>
+        <div>
+            <h1>Dungeons & Dragons</h1>
+            <p>- Ficha de Personagem -</p>
+        </div>
+    </header>
+    <main>
+        <action="" method="get" class="basic-form"> 
+        <div class="form-row">
+            <div class="line-content">
+            <label for="full-name">Nome do Personagem:</label>
+            <input required type="text" name="full-name" id="full-name">
+            </div>
+            <div class="line-content">
+                <label for="player-name">Nome do jogador:</label>
+                <input required type="text" name="player-name" id="player-name">
+            </div>
+            <div class="line-content">
+                <label for="level-class">Classe e Nivel:</label>
+                <input required type="text" name="level-class" id="level-class">
+            </div>
+            <div class="line-content">
+                <label for="breed">Raça:</label>
+                <input required type="text" name="breed" id="breed">
+            </div>
+            <div class="line-content">
+                <label for="antecedent">Antecedente:</label>
+                <input required type="text" name="antecedent" id="antecedent">
+            </div>
+            <div class="line-content">
+                <label for="experience-points">Pontos de experiência:</label>
+                <input required type="text" name="experience-points" id="experience-points">
+            </div>
+        </div>
+        <div class='form-row2'>
+            <div class="line-skills">
+                <label for="strength">Força:</label>
+                <select name="strength" id="strength">
+                    <option value="null">0</option>
+                    <option value="p">1 - 20</option>
+                    <option value="m">20 - 40</option>
+                    <option value="g">40 - 60</option>
+                    <option value="gg">60 - 80</option>
+                    <option value="xg">80 - 100</option>
+                </select>
+            </div>
+            <div class="line-skills">
+                <label for="skill">Destreza:</label>
+                <select name="skill" id="skill">
+                    <option value="null">0</option>
+                    <option value="p">1 - 20</option>
+                    <option value="m">20 - 40</option>
+                    <option value="g">40 - 60</option>
+                    <option value="gg">60 - 80</option>
+                    <option value="xg">80 - 100</option>
+                </select>
+                </div>
+            <div class="line-skills">
+                <label for="intelligence">Inteligência:</label>
+                <select name="intelligence" id="intelligence">
+                    <option value="null">0</option>
+                    <option value="p">1 - 20</option>
+                    <option value="m">20 - 40</option>
+                    <option value="g">40 - 60</option>
+                    <option value="gg">60 - 80</option>
+                    <option value="xg">80 - 100</option>
+                </select>
+            </div>
+            <div class="line-skills">
+                <label for="wisdom">Sabedoria:</label>
+                <select name="wisdom" id="wisdom">
+                    <option value="null">0</option>
+                    <option value="p">1 - 20</option>
+                    <option value="m">20 - 40</option>
+                    <option value="g">40 - 60</option>
+                    <option value="gg">60 - 80</option>
+                    <option value="xg">80 - 100</option>
+                </select>
+            </div>
+            <div class="line-skills">
+                <label for="charisma">Carisma:</label>
+                <select name="charisma" id="charisma">
+                    <option value="null">0</option>
+                    <option value="p">1 - 20</option>
+                    <option value="m">20 - 40</option>
+                    <option value="g">40 - 60</option>
+                    <option value="gg">60 - 80</option>
+                    <option value="xg">80 - 100</option>
+                </select>
+            </div>
+        </div>
+        <section class="line-magic">
+            <div class="legacy-form-skills">
+                <legend>Perícias:</legend>
+                <br>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type0'>
+                <label for='skills-type0'1">Acrobacia (Des)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type1'>
+                <label for='skills-type1'>Arcanismo (Int)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type2'>
+                <label for='skills-type2'>Atletismo (For)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type3'>
+                <label for='skills-type3'>Atuação (Car)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type4'>
+                <label for='skills-type4'>Enganação (Car)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type5'>
+                <label for='skills-type5'>Furtividade (Des)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type6'>
+                <label for='skills-type6'>História (Int)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type7'>
+                <label for='skills-type7'>Intimidação (Car)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type8'>
+                <label for='skills-type8'>Intuição (Sab)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type9'>
+                <label for='skills-type9'>Investigação (Int)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type10'>
+                <label for='skills-type10'>Lidar com Animais (Sab)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type11'>
+                <label for='skills-type11'>Medicina (Sab)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type12'>
+                <label for='skills-type12'>Natureza (Int)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type13'>
+                <label for='skills-type13'>Percepção (Sab)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type14'>
+                <label for='skills-type14'>Persuasão (Car)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type15'>
+                <label for='skills-type15'>Prestidigitação (Des)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type16'>
+                <label for='skills-type16'>Religião (Int)</label>
+                <input type="checkbox" name='skills-type' class="skills-item" id='skills-type17'>
+                <label for='skills-type17'>Sobrevivência (Sab)</label>
+                </div>
+                <section class="skills-section">
+                <div class="line-content3">
+                    <label for="personality"> Personalidade:</label>
+                    <textarea name="personality" id="personality"> </textarea>
+                </div>
+                <div class="line-content3">
+                    <label for="ideal">Ideais:</label>
+                    <textarea name="ideal" id="ideal"> </textarea>
+                </div>
+                <div class="line-content3">
+                    <label for="bond"> Vínculos:</label>
+                    <textarea name="bond" id="bond"> </textarea>
+                </div>
+                <div class="line-content3">
+                    <label for="weakness"> Fraqueza:</label>
+                    <textarea name="weakness" id="weakness"> </textarea>
+                </div>
+            </section>
+            <section class="features-talents">
+                <div class="line-content4">
+                    <label for="features">Características e Talentos:</label>
+                    <textarea name="features" id="features"> </textarea>
+                <div class="line-content4">
+                        <label for="proficiency">Outras proficiências e idiomas:</label>
+                        <textarea name="proficiency" id="proficiency"> </textarea>
+                </div>
+            </section>
+            <section class="spell-attacks">
+                <label for="features">Ataques e Conjuração:</label>
+                <div class="line-content5">
+                    <label for="spell-name">Nome:</label>
+                    <input required type="text" name="spell-name" id="spell-name">
+                </div>
+                <div class="line-content5">
+                    <label for="spell-bonus">Bônus/Ataque:</label>
+                    <input required type="text" name="bonus-name" id="bonus-name">
+                </div>
+                <div class="line-content5">
+                    <label for="spell-dano">Dano/Tipo:</label>
+                    <input required type="text" name="dano-name" id="dano-name">
+                </div>
+                <div class="line-content5">
+                    <textarea name="features" id="features"> </textarea>
+                </div>
+            </section>
+    </form>
+    </main>
+    
+</body>
+</html>
