@@ -22,7 +22,7 @@
         <action="" method="get" class="basic-form"> 
         <div class="form-row">
             <div class="line-content">
-            <label for="full-name">Nome do Personagem:</label>
+            <label for="full-name" id="fullname-id">Nome do Personagem:</label>
             <input required type="text" name="full-name" id="full-name">
             </div>
             <div class="line-content">
@@ -38,7 +38,7 @@
                 <input required type="text" name="breed" id="breed">
             </div>
             <div class="line-content">
-                <label for="antecedent">Antecedente:</label>
+                <label for="antecedent" id="antecedent-id">Antecedente:</label>
                 <input required type="text" name="antecedent" id="antecedent">
             </div>
             <div class="line-content">
@@ -191,10 +191,15 @@
                 </div>
                 <div class="line-content5">
                 <textarea name="features" id="features"> </textarea>
-                </div>
+            </div>
         </section>
     </form>
     </main>
+    <div class="save-email">
+        <label for="save-personality" id="email-phrase">Seu e-mail para enviarmos o formulário:</label>
+        <input required type="email" id="email" name="email" placeholder="Email">
+        <button type="submit" value="submit" id='save-personality'> Enviar </button>
+    </div>
     <footer>
         <ul>
         <li><a href="https://github.com/larirga" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></li>
@@ -202,7 +207,7 @@
         <li><a href="https://twitter.com/diglettinha" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a></li>
         </ul>
         <p>Todos os direitos reservados - Larirga 2022</p>
-    </footer>
     
+    </footer>
 </body>
 </html>

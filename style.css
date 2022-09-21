@@ -43,13 +43,12 @@ body {
 }
 
 main {
-    
+    font-size: 20px;
 }
 
 .form-row {
     border: 20px;
     display: flex;
-    /* justify-content: space-between; */
     padding: 15px;
     background-color: #f1d07a;
 
@@ -70,10 +69,6 @@ main {
     background-color: #f1d07a;
 }
 
-.line-skills {
-    
-}
-
 .line-magic {
     /* border: red solid 30px; */
     display: flex;
@@ -86,7 +81,7 @@ main {
     border: #ffb107 solid 2px;
     border-radius: 6px;
     padding: 10px;
-    width:120px;
+    width:150px;
     background-color: #f1d07a;;
 }
 
@@ -97,17 +92,9 @@ main {
 }
 
 .skills-section {
-    /* border: black solid 2px; */
-    /* height: 200px; */
     line-height: 25px;
-    /* display: flex; */
-
 }
 
-.features-talents {
-    /* border: green solid 2px; */
-    /* height: 200px; */
-}
 
 textarea {
     resize: none;
@@ -135,6 +122,15 @@ input {
     height: 30px;
     width: 100px;
     display: flex;
+    
+}
+
+button {
+    padding: 15px;
+    background-color: #920a08;
+    color: white;
+    border: none;
+    margin-left: 70px;
 }
 
 footer {
@@ -168,4 +164,32 @@ footer p {
     color: #a54530;
     text-align: center;
     font-size: 20px
+}
+
+#antecedent , #antecedent-id {
+    margin-left: 35px;
+}
+
+#full-name , #fullname-id {
+    margin-left: 75px;
+}
+
+.save-email {
+    display:flex;
+    /* border: black solid 2px; */
+    align-items: baseline;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 30px;
+    background-color: #f5e9aa;
+}
+
+.save-email input {
+    width: 300px;
+    height: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-align:center;
 }
